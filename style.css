@@ -1,0 +1,23 @@
+body {
+    background-color: black;
+  color: white;
+  margin: 0;
+  padding: 0;
+}
+@keyframes spin {
+  from {transform: rotateY(0deg);}
+  to {transform: rotateY(360deg);}
+}
+.spinning {
+  animation : spin 2s infinite;
+}
+img {
+  width: 500px;
+  height: 500px;
+  border-radius: 500px;
+
+}
+
+p {
+  color: #eccc68;
+}
